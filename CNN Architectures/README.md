@@ -16,3 +16,11 @@ GoogLeNet is a type of convolutional neural network based on the Inception archi
 Introduced by Simonyan et al. in Very Deep Convolutional Networks for Large-Scale Image Recognition
 
 VGG is a classical convolutional neural network architecture. It was based on an analysis of how to increase the depth of such networks. The network utilises small 3 x 3 filters. Otherwise the network is characterized by its simplicity: the only other components being pooling layers and a fully connected layer.
+
+### 4. Residual Network
+Introduced by He et al. in Deep Residual Learning for Image Recognition
+ 
+Residual Networks, or ResNets, learn residual functions with reference to the layer inputs, instead of learning unreferenced functions. Instead of hoping each few stacked layers directly fit a desired underlying mapping, residual nets let these layers fit a residual mapping. They stack residual blocks ontop of each other to form network: e.g. a ResNet-50 has fifty layers using these blocks.
+
+Formally, denoting the desired underlying mapping as , we let the stacked nonlinear layers fit another mapping of . The original mapping is recast into .
+There is empirical evidence that these types of network are easier to optimize, and can gain accuracy from considerably increased depth.
