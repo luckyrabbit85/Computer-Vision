@@ -22,7 +22,7 @@ Introduced by He et al. in Deep Residual Learning for Image Recognition
  
 Residual Networks, or ResNets, learn residual functions with reference to the layer inputs, instead of learning unreferenced functions. Instead of hoping each few stacked layers directly fit a desired underlying mapping, residual nets let these layers fit a residual mapping. They stack residual blocks ontop of each other to form network: e.g. a ResNet-50 has fifty layers using these blocks.
 
-Formally, denoting the desired underlying mapping as $H(x)$, we let the stacked nonlinear layers fit another mapping of $F(x):= H(x) - x$. The original mapping is recast into F(x) + x.
+Formally, denoting the desired underlying mapping as H(x), we let the stacked nonlinear layers fit another mapping of F(x):= H(x) - x. The original mapping is recast into F(x) + x.
 There is empirical evidence that these types of network are easier to optimize, and can gain accuracy from considerably increased depth.
 
 ### 5. ResNeXt
