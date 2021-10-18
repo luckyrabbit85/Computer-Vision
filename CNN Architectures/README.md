@@ -1,5 +1,7 @@
 # CNN-Architectures
 
+Here I try to explain various computer vision architectures and implement the same using Tensorflow Keras framework.
+
 ### 1. AlexNet
 Introduced by Krizhevsky et al. in ImageNet Classification with Deep Convolutional Neural Networks
  
