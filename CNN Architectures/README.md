@@ -24,3 +24,8 @@ Residual Networks, or ResNets, learn residual functions with reference to the la
 
 Formally, denoting the desired underlying mapping as , we let the stacked nonlinear layers fit another mapping of . The original mapping is recast into .
 There is empirical evidence that these types of network are easier to optimize, and can gain accuracy from considerably increased depth.
+
+### 5. ResNeXt
+Introduced by Xie et al. in Aggregated Residual Transformations for Deep Neural Networks
+ 
+A ResNeXt repeats a building block that aggregates a set of transformations with the same topology. Compared to a ResNet, it exposes a new dimension, cardinality (the size of the set of transformations) **C**, as an essential factor in addition to the dimensions of depth and width.
